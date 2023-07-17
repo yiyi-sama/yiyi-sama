@@ -14,3 +14,18 @@
 | ---------------------------------------- | ------------|
 | ls ~/  grep <palabra> | Permite filtrar las carpetas del directorio dada una palabra |
 | findd="ls ~/  grep $1" | Permite hacer un alias del comando anterior y este recibe de manera dinámica el parámetro que le indiquemos |
+
+# Este es el top 5 de comandos más usados
+| ✨Comando✨ | 💥Descripción💥          |
+|--------------|---------------------------|
+| ls           | Lista el contenido        |
+| cd           | Cambiar entre directorios |
+| yarn         | Instalar dependencias     |
+| gst          | Alias de git status       |
+| clear        | Limpiar la terminal       |
+| alias        | Listar los alias          |
+
+# Estos son mis alias más usados
+```bash
+mostused="history | awk '\"{print $2}'\" | sort | uniq -c | sort -nr | head -n 10"
+```
